@@ -17,7 +17,7 @@ public class User {
     String lastName;
     @NotEmpty
     @Size(min = 10, max = 11)
-    @Pattern(message = "test",regexp = "^0[0-9]*")
+    @Pattern(message = "tôi là ai",regexp = "^0[0-9]*")
     String phoneNumber;
 
 
